@@ -68,8 +68,11 @@ p {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* debug */
 
+=======
+>>>>>>> login-function
 .debug_dump {
   clear: both;
   float: left;
@@ -78,6 +81,7 @@ p {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
   box-sizing:         border-box;
+<<<<<<< HEAD
 }
 
 /* error_messages */
@@ -95,4 +99,6 @@ p {
   .form-control {
     color: $state-danger-text;
   }
+=======
+>>>>>>> login-function
 }

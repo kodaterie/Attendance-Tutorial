@@ -4,6 +4,7 @@
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Top", root_path %></li>
+<<<<<<< HEAD
         <% if logged_in? %>
           <li><%= link_to "Users", '#' %></li>
           <li class="dropdown">
@@ -22,6 +23,9 @@
         <% else %>
           <li><%= link_to "Log in", login_path %></li>
         <% end %>
+=======
+        <li><%= link_to "Log in", login_path %></li>
+>>>>>>> login-function
       </ul>
     </nav>
   </div>

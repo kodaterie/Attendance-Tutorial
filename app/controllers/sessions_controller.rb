@@ -2,6 +2,7 @@ class SessionsController < ApplicationController
 
   def new
   end
+<<<<<<< HEAD
 
   def create
     user = User.find_by(email: params[:session][:email].downcase)
@@ -20,3 +21,10 @@ class SessionsController < ApplicationController
     redirect_to root_url
   end
 end
+=======
+  
+  def create
+    render :new
+  end
+end
+>>>>>>> login-function
